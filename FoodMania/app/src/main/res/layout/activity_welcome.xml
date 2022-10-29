@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.WelcomeActivity"
+    tools:ignore="InvalidId">
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="340dp"
+        android:background="@drawable/pinkside"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsignup"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/green"
+        android:text="Sign Up"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.798"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:background="@drawable/round"
+        android:backgroundTint="@color/pink"
+        android:text="Login"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="244dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/foodmania" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image" />
+
+
+    <FrameLayout
+        android:id="@+id/frm_usr_authentic"
+        android:layout_width="320dp"
+        android:layout_height="380dp"
+        android:background="@drawable/roundfrag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54">
+
+    </FrameLayout>
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="312dp"
+        android:layout_height="274dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="532dp"
+        android:src="@drawable/milk_donut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageview1"
+        android:layout_width="232dp"
+        android:layout_height="224dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="92dp"
+        android:src="@drawable/choco_donut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+
+        android:id="@+id/progress"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="180dp"
+        android:layout_marginBottom="12dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btnlogin"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--        <TextView-->
+    <!--        android:id="@+id/txt_wait"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="148dp"-->
+    <!--        android:layout_marginTop="144dp"-->
+    <!--        android:gravity="center"-->
+    <!--        android:text="Please Wait..."-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="15dp"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:visibility="invisible"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardUseCompatPadding="true"
+    card_view:cardCornerRAdius="5dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="120dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:padding="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+            <ImageView
+                android:padding="2dp"
+                android:src="@drawable/ic_email"
+                android:layout_marginStart="5dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="2dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:text="Email"
+                android:textColor="#605E5E"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+             <LinearLayout
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="205dp">
+
+                <ImageView
+                    android:padding="5dp"
+                    android:src="@drawable/checked"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_gravity="center"/>
+                </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/txt_email"
+            android:text="examlpe@mail.com"
+            android:gravity="top"
+            android:textColor="@color/black"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Fragments.RegisterFragment">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="587dp"
+            android:layout_marginTop="-15dp">
+
+            <EditText
+                android:id="@+id/txt_firstname"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1f4e1"
+                android:fontFamily="@font/lucida_sans_unicode"
+                android:gravity="center"
+                android:hint="@string/fn"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="93dp" />
+
+            <EditText
+                android:id="@+id/txt_lastname"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="90dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1f4e1"
+                android:fontFamily="@font/lucida_sans_unicode"
+                android:gravity="center"
+                android:hint="@string/ln"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="93dp" />
+
+            <EditText
+                android:id="@+id/txt_email"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="150dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1f4e1"
+                android:gravity="center"
+                android:hint="@string/em"
+                android:inputType="textEmailAddress"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <EditText
+                android:id="@+id/txt_password"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="210dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1f4e1"
+                android:gravity="center"
+                android:hint="@string/pw"
+                android:inputType="textPassword"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Spinner
+                android:id="@+id/user_catergory"
+                android:layout_width="230dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="270dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1f4e1"
+                android:entries="@array/user_catergory"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                tools:layout_editor_absoluteX="0dp" />
+
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="125dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="325dp"
+                android:background="@drawable/round"
+                android:backgroundTint="@color/green"
+                android:text="Sign UP" />
+
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
